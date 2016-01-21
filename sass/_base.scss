@@ -44,7 +44,7 @@ body, button, input, select, textarea {
 
 a,
 a:visited {
-	color: #fea758;
+	color: $orange-link;
 	text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #0099a7;
+	color: $blue;
 	font-family: 'Lato', sans-serif;
 	line-height: 1.2;
 	margin-bottom: 20px;
@@ -77,7 +77,7 @@ h1,
 }
 
 .entry-title a {
-	color: #0099a7;
+	color: $blue;
 	border-bottom: none;
 }
 
@@ -300,14 +300,14 @@ img {
 .menu > li.current-menu-parent > a,
 .menu > li.current-menu-item > a:hover,
 .menu > li.current-menu-parent > a:hover {
-	background-color: #0099a7;
+	background-color: $blue;
 	color: #fff;
 	position: relative;
 }
 
 .menu li a:hover {
 	border: 0;
-	color: #fea758;
+	color: $orange-link;
 }
 
 .main-navigation ul ul {
@@ -316,7 +316,7 @@ img {
 }
 
 .main-navigation ul ul:before {
-	border-bottom: 8px solid #0099a7;
+	border-bottom: 8px solid $blue;
 	border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
 	content: " ";
@@ -327,7 +327,7 @@ img {
 }
 
 .menu ul li {
-	background-color: #0099a7;
+	background-color: $blue;
 }
 
 .menu ul li:last-child {
@@ -344,7 +344,7 @@ img {
 }
 
 .menu ul li:hover a {
-	color: #0099a7;
+	color: $blue;
 }
 
 .menu-toggle {
@@ -422,7 +422,7 @@ img {
 
 #before-content-widgets .jetpack_subscription_widget,
 #before-content-widgets .widget_wpcom_social_media_icons_widget {
-	background-color: #0099a7;
+	background-color: $blue;
 	color: #fff;
 	float: right;
 	padding: 40px 40px 15px;
@@ -445,11 +445,11 @@ img {
 
 #before-content-widgets .jetpack_subscription_widget input[type="submit"] {
 	background-color: #fff;
-	color: #0099a7;
+	color: $blue;
 }
 
 #before-content-widgets .jetpack_subscription_widget input[type="submit"]:hover {
-	background-color: #fea758;
+	background-color: $orange-link;
 	color: #fff;
 }
 
@@ -464,13 +464,13 @@ img {
 #before-content-widgets .widget_wpcom_social_media_icons_widget .genericon::before {
 	background-color: #fff;
 	border-radius: 50%;
-	color: #0099a7;
+	color: $blue;
 	font-size: 24px;
 	padding: 10px;
 }
 
 #before-content-widgets .widget_wpcom_social_media_icons_widget .genericon:hover::before {
-	background-color: #fea758;
+	background-color: $orange-link;
 	color: #fff;
 }
 
@@ -495,7 +495,7 @@ img {
 
 .hentry {
 	background-color: #fff;
-	border-top: 10px solid #f97f18;
+	border-top: 10px solid $orange;
 	margin-bottom: 40px;
 	padding: 40px;
 
@@ -509,7 +509,7 @@ img {
 
 .single #content {
 	background-color: #fff;
-	border-top: 10px solid #fea758;
+	border-top: 10px solid $orange-link;
 	margin-bottom: 40px;
 	padding: 40px;
 }
@@ -534,7 +534,7 @@ img {
 }
 
 .entry-meta a:hover {
-	color: #fea758;
+	color: $orange-link;
 }
 
 footer.entry-meta {
@@ -549,7 +549,7 @@ footer.entry-meta {
 
 .simple-button,
 a.more-link {
-	background-color: #0099a7;
+	background-color: $blue;
 	border-radius: 2px;
 	border: 0;
 	color: #fff;
@@ -565,7 +565,7 @@ a:visited.simple-button {
 
 a.more-link:hover,
 .simple-button:hover {
-	background-color: #fea758;
+	background-color: $orange-link;
 	border: 0;
 	color: #fff;
 }
@@ -576,7 +576,7 @@ a.more-link:hover,
 
 /* Sponsor page */
 .wcorg-sponsors > div h2 {
-	background-color: #fea758;
+	background-color: $orange-link;
 	color: #fff;
 	font-size: 30px;
 	margin-bottom: 40px;
@@ -735,7 +735,7 @@ li.comment .children {
 
 #secondary .widget {
 	background-color: #fff;
-	border-top: 10px solid #0099a7;
+	border-top: 10px solid $blue;
 	margin-bottom: 40px;
 	padding: 40px 30px;
 }
@@ -756,7 +756,7 @@ li.comment .children {
 }
 
 #secondary #text-6 {
-	background-color: #0099a7;
+	background-color: $blue;
 	border: 0;
 	color: #fff;
 }
@@ -772,17 +772,17 @@ li.comment .children {
 
 #secondary #text-6 a:hover {
 	border-bottom: 0;
-	color: #fea758;
+	color: $orange-link;
 }
 
 #secondary #text-6 .simple-button {
 	background-color: #fff;
 	border: 0;
-	color: #0099a7;
+	color: $blue;
 }
 
 #secondary #text-6 .simple-button:hover {
-	background-color: #fea758;
+	background-color: $orange-link;
 	color: #fff;
 }
 
@@ -863,7 +863,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background: #0099a7;
+	background: $blue;
 	border: 0;
 	border-radius: 2px;
 	box-shadow: none;
@@ -879,7 +879,7 @@ button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: #fea758;
+	background: $orange-link;
 	color: #fff;
 }
 
@@ -971,7 +971,7 @@ input[type="submit"]:hover {
 
 	#before-content-widgets .widget_text {
 		border-bottom: 40px solid #f6f6f6;
-		border-top: 10px solid #fea758;
+		border-top: 10px solid $orange-link;
 	}
 
 	.site-content {
@@ -987,7 +987,7 @@ input[type="submit"]:hover {
 	}
 
 	.site-footer {
-		background: #0099a7;
+		background: $blue;
 		height: auto;
 	}
 
@@ -1053,7 +1053,7 @@ input[type="submit"]:hover {
 
 	/* Main Menu */
 	.main-small-navigation .menu {
-		background-color: #0099a7;
+		background-color: $blue;
 		margin: 0;
 		overflow: hidden;
 		padding: 20px;
@@ -1107,7 +1107,7 @@ input[type="submit"]:hover {
 	.menu > li.current-menu-parent > a:hover,
 	.menu ul li a:hover {
 		background: none;
-		color: #fea758;
+		color: $orange-link;
 	}
 
 	.sub-menu {
