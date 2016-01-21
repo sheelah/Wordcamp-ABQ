@@ -44,7 +44,7 @@ body, button, input, select, textarea {
 
 a,
 a:visited {
-  color: #be3c0f;
+  color: #e7540f;
   text-decoration: none;
 }
 
@@ -307,7 +307,7 @@ img {
 
 .menu li a:hover {
   border: 0;
-  color: #be3c0f;
+  color: #e7540f;
 }
 
 .main-navigation ul ul {
@@ -458,7 +458,7 @@ img {
 }
 
 #before-content-widgets .jetpack_subscription_widget input[type="submit"]:hover {
-  background-color: #be3c0f;
+  background-color: #e7540f;
   color: #fff;
 }
 
@@ -479,7 +479,7 @@ img {
 }
 
 #before-content-widgets .widget_wpcom_social_media_icons_widget .genericon:hover::before {
-  background-color: #be3c0f;
+  background-color: #e7540f;
   color: #fff;
 }
 
@@ -504,7 +504,7 @@ img {
 
 .hentry {
   background-color: #fff;
-  border-top: 10px solid #be3c0f;
+  border-top: 10px solid #e7540f;
   margin-bottom: 40px;
   padding: 40px;
 }
@@ -517,7 +517,7 @@ img {
 
 .single #content {
   background-color: #fff;
-  border-top: 10px solid #be3c0f;
+  border-top: 10px solid #e7540f;
   margin-bottom: 40px;
   padding: 40px;
 }
@@ -542,7 +542,7 @@ img {
 }
 
 .entry-meta a:hover {
-  color: #be3c0f;
+  color: #e7540f;
 }
 
 footer.entry-meta {
@@ -573,7 +573,7 @@ a:visited.simple-button {
 
 a.more-link:hover,
 .simple-button:hover {
-  background-color: #be3c0f;
+  background-color: #e7540f;
   border: 0;
   color: #fff;
 }
@@ -584,7 +584,7 @@ a.more-link:hover,
 
 /* Sponsor page */
 .wcorg-sponsors > div h2 {
-  background-color: #be3c0f;
+  background-color: #e7540f;
   color: #fff;
   font-size: 30px;
   margin-bottom: 40px;
@@ -780,7 +780,7 @@ li.comment .children {
 
 #secondary #text-6 a:hover {
   border-bottom: 0;
-  color: #be3c0f;
+  color: #e7540f;
 }
 
 #secondary #text-6 .simple-button {
@@ -790,7 +790,7 @@ li.comment .children {
 }
 
 #secondary #text-6 .simple-button:hover {
-  background-color: #be3c0f;
+  background-color: #e7540f;
   color: #fff;
 }
 
@@ -887,7 +887,7 @@ button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  background: #be3c0f;
+  background: #e7540f;
   color: #fff;
 }
 
@@ -969,7 +969,7 @@ input[type="submit"]:hover {
   }
   #before-content-widgets .widget_text {
     border-bottom: 40px solid #f6f6f6;
-    border-top: 10px solid #be3c0f;
+    border-top: 10px solid #e7540f;
   }
   .site-content {
     margin: 40px 0 0;
@@ -1085,7 +1085,7 @@ input[type="submit"]:hover {
   .menu > li.current-menu-parent > a:hover,
   .menu ul li a:hover {
     background: none;
-    color: #be3c0f;
+    color: #e7540f;
   }
   .sub-menu {
     margin-bottom: 0;

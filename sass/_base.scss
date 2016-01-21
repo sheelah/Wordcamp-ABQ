@@ -44,7 +44,7 @@ body, button, input, select, textarea {
 
 a,
 a:visited {
-	color: $orange-link;
+	color: $orange-accent;
 	text-decoration: none;
 }
 
@@ -307,7 +307,7 @@ img {
 
 .menu li a:hover {
 	border: 0;
-	color: $orange-link;
+	color: $orange-accent;
 }
 
 .main-navigation ul ul {
@@ -449,7 +449,7 @@ img {
 }
 
 #before-content-widgets .jetpack_subscription_widget input[type="submit"]:hover {
-	background-color: $orange-link;
+	background-color: $orange-accent;
 	color: #fff;
 }
 
@@ -470,7 +470,7 @@ img {
 }
 
 #before-content-widgets .widget_wpcom_social_media_icons_widget .genericon:hover::before {
-	background-color: $orange-link;
+	background-color: $orange-accent;
 	color: #fff;
 }
 
@@ -509,7 +509,7 @@ img {
 
 .single #content {
 	background-color: #fff;
-	border-top: 10px solid $orange-link;
+	border-top: 10px solid $orange-accent;
 	margin-bottom: 40px;
 	padding: 40px;
 }
@@ -534,7 +534,7 @@ img {
 }
 
 .entry-meta a:hover {
-	color: $orange-link;
+	color: $orange-accent;
 }
 
 footer.entry-meta {
@@ -565,7 +565,7 @@ a:visited.simple-button {
 
 a.more-link:hover,
 .simple-button:hover {
-	background-color: $orange-link;
+	background-color: $orange-accent;
 	border: 0;
 	color: #fff;
 }
@@ -576,7 +576,7 @@ a.more-link:hover,
 
 /* Sponsor page */
 .wcorg-sponsors > div h2 {
-	background-color: $orange-link;
+	background-color: $orange-accent;
 	color: #fff;
 	font-size: 30px;
 	margin-bottom: 40px;
@@ -772,7 +772,7 @@ li.comment .children {
 
 #secondary #text-6 a:hover {
 	border-bottom: 0;
-	color: $orange-link;
+	color: $orange-accent;
 }
 
 #secondary #text-6 .simple-button {
@@ -782,7 +782,7 @@ li.comment .children {
 }
 
 #secondary #text-6 .simple-button:hover {
-	background-color: $orange-link;
+	background-color: $orange-accent;
 	color: #fff;
 }
 
@@ -879,7 +879,7 @@ button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: $orange-link;
+	background: $orange-accent;
 	color: #fff;
 }
 
@@ -971,7 +971,7 @@ input[type="submit"]:hover {
 
 	#before-content-widgets .widget_text {
 		border-bottom: 40px solid #f6f6f6;
-		border-top: 10px solid $orange-link;
+		border-top: 10px solid $orange-accent;
 	}
 
 	.site-content {
@@ -1107,7 +1107,7 @@ input[type="submit"]:hover {
 	.menu > li.current-menu-parent > a:hover,
 	.menu ul li a:hover {
 		background: none;
-		color: $orange-link;
+		color: $orange-accent;
 	}
 
 	.sub-menu {
