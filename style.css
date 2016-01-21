@@ -506,7 +506,12 @@ img {
   width: 70%;
 }
 
-.hentry {
+.archive .site-content {
+  margin-top: -11.6%;
+}
+
+.hentry,
+.post.no-results {
   background-color: #fff;
   border-top: 15px solid #6096A7;
   margin-bottom: 40px;
