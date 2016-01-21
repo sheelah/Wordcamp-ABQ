@@ -1,0 +1,27 @@
+{
+  "name": "wordcampabq",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sheelah/Wordcamp-ABQ.git"
+  },
+  "author": "Sheelah Brennan",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/sheelah/Wordcamp-ABQ/issues"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "~0.4.5",
+    "grunt-sass": "~1.1.0",
+    "grunt-postcss": "~0.7.1",
+    "load-grunt-tasks": "~3.4.0",
+    "time-grunt": "~1.3.0",
+    "autoprefixer": "~6.3.1"
+  }
+}
