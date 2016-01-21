@@ -833,8 +833,8 @@ a.sponsor-logo:hover {
 	clear: both;
 	color: #fff;
 	font-size: 14px;
-	padding: 50px 0;
 	text-align: center;
+	background: $dark-gray;
 }
 
 .site-footer a {
@@ -846,7 +846,7 @@ a.sponsor-logo:hover {
 }
 
 .site-footer .site-info {
-	padding-top: 200px;
+	padding: 20px 0;
 }
 
 .site-info-generator:after {
