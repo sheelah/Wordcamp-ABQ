@@ -44,7 +44,7 @@ body, button, input, select, textarea {
 
 a,
 a:visited {
-	color: $orange-accent;
+	color: $blue-accent;
 	text-decoration: none;
 }
 
@@ -307,7 +307,7 @@ img {
 
 .menu li a:hover {
 	border: 0;
-	color: $orange-accent;
+	color: $blue-accent;
 }
 
 .main-navigation ul ul {
@@ -449,7 +449,7 @@ img {
 }
 
 #before-content-widgets .jetpack_subscription_widget input[type="submit"]:hover {
-	background-color: $orange-accent;
+	background-color: $blue-accent;
 	color: #fff;
 }
 
@@ -470,7 +470,7 @@ img {
 }
 
 #before-content-widgets .widget_wpcom_social_media_icons_widget .genericon:hover::before {
-	background-color: $orange-accent;
+	background-color: $blue-accent;
 	color: #fff;
 }
 
@@ -495,7 +495,7 @@ img {
 
 .hentry {
 	background-color: #fff;
-	border-top: 15px solid $orange;
+	border-top: 15px solid $light-blue;
 	margin-bottom: 40px;
 	padding: 40px;
 
@@ -509,7 +509,7 @@ img {
 
 .single #content {
 	background-color: #fff;
-	border-top: 15px solid $orange-accent;
+	border-top: 15px solid $blue-accent;
 	margin-bottom: 40px;
 	padding: 40px;
 }
@@ -534,7 +534,7 @@ img {
 }
 
 .entry-meta a:hover {
-	color: $orange-accent;
+	color: $blue-accent;
 }
 
 footer.entry-meta {
@@ -565,7 +565,7 @@ a:visited.simple-button {
 
 a.more-link:hover,
 .simple-button:hover {
-	background-color: $orange-accent;
+	background-color: $blue-accent;
 	border: 0;
 	color: #fff;
 }
@@ -576,7 +576,7 @@ a.more-link:hover,
 
 /* Sponsor page */
 .wcorg-sponsors > div h2 {
-	background-color: $orange-accent;
+	background-color: $blue-accent;
 	color: #fff;
 	font-size: 30px;
 	margin-bottom: 40px;
@@ -772,7 +772,7 @@ li.comment .children {
 
 #secondary #text-6 a:hover {
 	border-bottom: 0;
-	color: $orange-accent;
+	color: $blue-accent;
 }
 
 #secondary #text-6 .simple-button {
@@ -782,7 +782,7 @@ li.comment .children {
 }
 
 #secondary #text-6 .simple-button:hover {
-	background-color: $orange-accent;
+	background-color: $blue-accent;
 	color: #fff;
 }
 
@@ -879,7 +879,7 @@ button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: $orange-accent;
+	background: $blue-accent;
 	color: #fff;
 }
 
@@ -939,7 +939,6 @@ input[type="submit"]:hover {
 	.menu > li > a {
 		line-height: 3;
 		padding: 0 15px;
-		font-size: 16px;
 	}
 
 	.main-navigation ul ul {
@@ -972,7 +971,7 @@ input[type="submit"]:hover {
 
 	#before-content-widgets .widget_text {
 		border-bottom: 40px solid #f6f6f6;
-		border-top: 15px solid $orange-accent;
+		border-top: 15px solid $blue-accent;
 	}
 
 	.site-content {
@@ -1069,6 +1068,7 @@ input[type="submit"]:hover {
 
 	.menu li a {
 		color: #fff;
+		font-size: 16px;
 	}
 
 	.menu ul li,
@@ -1108,7 +1108,7 @@ input[type="submit"]:hover {
 	.menu > li.current-menu-parent > a:hover,
 	.menu ul li a:hover {
 		background: none;
-		color: $orange-accent;
+		color: $blue-accent;
 	}
 
 	.sub-menu {
