@@ -161,11 +161,6 @@ img {
   display: none;
 }
 
-.assistive-text {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
 /*--------------------------------------------------------------
 2.0 Structure
 --------------------------------------------------------------*/
@@ -368,6 +363,8 @@ img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
   background-repeat: no-repeat;
   height: 393px;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #after-header-widgets .textwidget {
@@ -378,12 +375,24 @@ img {
 }
 
 #after-header-widgets .widget-title {
-  font-size: 60px;
+  font-size: 30px;
   font-family: 'Crete Round';
   font-weight: 400;
   color: #fff;
   padding-top: 12%;
   text-transform: inherit;
+}
+
+@media screen and (min-width: 700px) {
+  #after-header-widgets .widget-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #after-header-widgets .widget-title {
+    font-size: 60px;
+  }
 }
 
 #before-content-widgets {
@@ -480,7 +489,7 @@ img {
 
 .site-content {
   float: left;
-  margin-top: -5%;
+  margin-top: -7%;
   margin-right: 2.7%;
   max-width: 770px;
   width: 70%;
@@ -720,7 +729,7 @@ li.comment .children {
 --------------------------------------------------------------*/
 #secondary {
   float: right;
-  margin-top: -5%;
+  margin-top: -7%;
   max-width: 300px;
   width: 27%;
 }
