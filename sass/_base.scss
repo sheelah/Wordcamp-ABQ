@@ -372,6 +372,8 @@ img {
 		url('https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg');
 	  background-repeat: no-repeat;
 		height: 393px;
+		background-attachment: fixed;
+		background-size: cover;
   }
 }
 
@@ -387,7 +389,7 @@ img {
 	font-family: 'Crete Round';
 	font-weight: 400;
 	color: #fff;
-	padding-top: 12%;
+	padding-top: 10%;
 	text-transform: inherit;
 	@media screen and (min-width: 700px) {
 		font-size: 40px;
