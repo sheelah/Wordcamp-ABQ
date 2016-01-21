@@ -360,11 +360,15 @@ img {
 --------------------------------------------------------------*/
 #after-header-widgets {
   background-image: linear-gradient(rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.3)),
-    url('https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg');
+    url('https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp-1024x197.jpg');
   background-repeat: no-repeat;
 	height: 393px;
   background-attachment: fixed;
   background-size: cover;
+  @media screen and (min-width: 1000px) {
+	  background-image: linear-gradient(rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.3)),
+		url('https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg');
+  }
 }
 
 #after-header-widgets .textwidget {

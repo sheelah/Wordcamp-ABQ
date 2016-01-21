@@ -359,12 +359,19 @@ img {
 5.0 Hero Area
 --------------------------------------------------------------*/
 #after-header-widgets {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp-1024x197.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp-1024x197.jpg");
   background-repeat: no-repeat;
   height: 393px;
   background-attachment: fixed;
   background-size: cover;
+}
+
+@media screen and (min-width: 1000px) {
+  #after-header-widgets {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
+  }
 }
 
 #after-header-widgets .textwidget {
