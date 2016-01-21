@@ -504,7 +504,7 @@ img {
 
 .hentry {
   background-color: #fff;
-  border-top: 10px solid #e7540f;
+  border-top: 15px solid #e7540f;
   margin-bottom: 40px;
   padding: 40px;
 }
@@ -517,7 +517,7 @@ img {
 
 .single #content {
   background-color: #fff;
-  border-top: 10px solid #e7540f;
+  border-top: 15px solid #e7540f;
   margin-bottom: 40px;
   padding: 40px;
 }
@@ -743,7 +743,7 @@ li.comment .children {
 
 #secondary .widget {
   background-color: #fff;
-  border-top: 10px solid #355887;
+  border-top: 15px solid #355887;
   margin-bottom: 40px;
   padding: 40px 30px;
 }
@@ -969,7 +969,7 @@ input[type="submit"]:hover {
   }
   #before-content-widgets .widget_text {
     border-bottom: 40px solid #f6f6f6;
-    border-top: 10px solid #e7540f;
+    border-top: 15px solid #e7540f;
   }
   .site-content {
     margin: 40px 0 0;
