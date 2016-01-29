@@ -578,11 +578,11 @@ a.more-link {
 }
 
 /* Links within simple-button class */
-.simple-button-link {
+a.simple-button-link {
   color: #fff;
 }
 
-.simple-button-link:hover {
+a.simple-button-link:hover {
   text-decoration: none;
   color: #fff;
 }
