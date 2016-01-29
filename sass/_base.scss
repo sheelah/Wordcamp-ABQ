@@ -569,6 +569,16 @@ a.more-link {
 	text-transform: uppercase;
 }
 
+
+/* Links within simple-button class */
+.simple-button-link {
+	color: #fff;
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
 a:visited.simple-button {
 	color: #fff;
 }
