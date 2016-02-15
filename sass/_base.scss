@@ -88,7 +88,9 @@ h1,
 }
 
 .archive .page-title {
-	color: #fff;
+	@media only screen and (min-width: 1023px) {
+		color: #fff;
+	}
 }
 
 h2 {
@@ -364,16 +366,15 @@ img {
 5.0 Hero Area
 --------------------------------------------------------------*/
 #after-header-widgets {
-  background-image: linear-gradient(rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.3)),
-    url('https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp-1024x197.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  @media screen and (min-width: 1000px) {
-	  background-image: linear-gradient(rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.3)),
+	background-image: linear-gradient(rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.3)),
 		url('https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg');
-	  background-repeat: no-repeat;
-		height: 393px;
-		background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: cover;
+  @media screen and (min-width: 1000px) {
+	background-repeat: no-repeat;
+	height: 393px;
+	background-size: cover;
   }
 }
 
@@ -509,7 +510,9 @@ img {
 }
 
 .archive .site-content {
-	margin-top: -11.6%;
+	@media only screen and (min-width: 1023px) {
+		margin-top: -11.6%;
+	}
 }
 
 .hentry,
