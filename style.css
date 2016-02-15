@@ -983,7 +983,6 @@ input[type="submit"]:hover {
   }
   #after-header-widgets {
     clear: both;
-    height: auto;
   }
   #after-header-widgets .widget {
     margin: 0;
