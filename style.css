@@ -875,7 +875,7 @@ a.sponsor-logo:hover {
   color: #fff;
   font-size: 14px;
   text-align: center;
-  background: #676666;
+  background: #355887;
 }
 
 .site-footer a {
@@ -1013,7 +1013,6 @@ input[type="submit"]:hover {
     width: 100%;
   }
   .site-footer {
-    background: #355887;
     height: auto;
   }
   .site-footer .site-info {
