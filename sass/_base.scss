@@ -369,13 +369,34 @@ img {
 	background-image: linear-gradient(rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.3)),
 		url('https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg');
 	background-repeat: no-repeat;
-	height: 300px;
+	height: 350px;
 	background-size: cover;
-  @media screen and (min-width: 1000px) {
-	background-repeat: no-repeat;
-	height: 393px;
-	background-size: cover;
-  }
+	@media screen and (min-width: 700px) {
+		height: 380px;
+	}
+	@media screen and (min-width: 1000px) {
+		background-repeat: no-repeat;
+		height: 630px;
+		background-size: cover;
+	}
+}
+
+#after-header-widgets > aside {
+	background: url(https://2016.albuquerque.wordcamp.org/files/2016/02/wordcamp-abq-logo.png) no-repeat center;
+	background-size: 250px auto;
+	margin-top: 0;
+	padding-top: 220px;
+	@media
+	(-webkit-min-device-pixel-ratio: 2),
+	(min-resolution: 192dpi) {
+	    /* Retina-specific stuff here */
+		background: url(https://2016.albuquerque.wordcamp.org/files/2016/02/wordcamp-abq-logo@2x.png) no-repeat center;
+		background-size: 350px 446px;
+	}
+  	@media screen and (min-width: 1000px) {
+		padding-top: 300px;
+		background-size: 350px auto;
+	}
 }
 
 #after-header-widgets .textwidget {
