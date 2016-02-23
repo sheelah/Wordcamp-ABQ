@@ -385,13 +385,13 @@ img {
 	background: url(https://2016.albuquerque.wordcamp.org/files/2016/02/wordcamp-abq-logo.png) no-repeat center;
 	background-size: 250px auto;
 	margin-top: 0;
-	padding-top: 220px;
+	padding-top: 300px;
 	@media
 	(-webkit-min-device-pixel-ratio: 2),
 	(min-resolution: 192dpi) {
 	    /* Retina-specific stuff here */
 		background: url(https://2016.albuquerque.wordcamp.org/files/2016/02/wordcamp-abq-logo@2x.png) no-repeat center;
-		background-size: 350px 446px;
+		background-size: 250px auto;
 	}
   	@media screen and (min-width: 1000px) {
 		padding-top: 500px;
