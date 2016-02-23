@@ -382,7 +382,7 @@ img {
 @media screen and (min-width: 1000px) {
   #after-header-widgets {
     background-repeat: no-repeat;
-    height: 630px;
+    height: 600px;
     background-size: cover;
   }
 }
