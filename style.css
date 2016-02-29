@@ -628,12 +628,17 @@ a.simple-button-link:hover {
   color: #fff;
 }
 
+.simple-button-link-cta {
+  display: inline-block;
+}
+
 a:visited.simple-button {
   color: #fff;
 }
 
 a.more-link:hover,
-.simple-button:hover {
+.simple-button:hover,
+.simple-button-cta:hover {
   background-color: #6096A7;
   border: 0;
   color: #fff;

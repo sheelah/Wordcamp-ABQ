@@ -613,12 +613,17 @@ a.simple-button-link {
 	}
 }
 
+.simple-button-link-cta {
+	display: inline-block;
+}
+
 a:visited.simple-button {
 	color: #fff;
 }
 
 a.more-link:hover,
-.simple-button:hover {
+.simple-button:hover,
+.simple-button-cta:hover {
 	background-color: $blue-accent;
 	border: 0;
 	color: #fff;
