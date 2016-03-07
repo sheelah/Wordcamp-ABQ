@@ -564,6 +564,12 @@ img {
   margin-top: 1em;
 }
 
+@media only screen and (min-width: 1025px) {
+  #main {
+    margin-top: 2em;
+  }
+}
+
 .site-content {
   float: left;
   margin-top: -7%;

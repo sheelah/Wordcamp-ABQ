@@ -537,6 +537,9 @@ img {
 #main {
 	margin-bottom: 5em;
     margin-top: 1em;
+    @media only screen and (min-width: 1025px) {
+      margin-top: 2em;
+    }
 }
 
 .site-content {
