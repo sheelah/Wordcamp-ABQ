@@ -369,7 +369,7 @@ img {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
   background-repeat: no-repeat;
-  height: 350px;
+  height: 400px;
   background-size: cover;
 }
 
