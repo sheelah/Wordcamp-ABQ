@@ -430,6 +430,7 @@ img {
 @media screen and (min-width: 1000px) {
   #after-header-widgets p {
     font-size: 20px;
+    padding-top: 20px;
   }
 }
 
