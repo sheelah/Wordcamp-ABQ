@@ -391,7 +391,7 @@ img {
   background: url(https://2016.albuquerque.wordcamp.org/files/2016/02/wordcamp-abq-logo.png) no-repeat center;
   background-size: 250px auto;
   margin-top: 0;
-  padding-top: 300px;
+  padding-top: 250px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -399,6 +399,12 @@ img {
     /* Retina-specific stuff here */
     background: url(https://2016.albuquerque.wordcamp.org/files/2016/02/wordcamp-abq-logo@2x.png) no-repeat center;
     background-size: 250px auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #after-header-widgets > aside {
+    padding-top: 300px;
   }
 }
 
