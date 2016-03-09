@@ -411,7 +411,7 @@ img {
   }
   @media screen and (min-width: 1000px) {
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 0;
   }
 }
 
@@ -1027,6 +1027,10 @@ input[type="submit"]:hover {
 
 .wcpt-time {
   text-align: center;
+  padding: 10px;
+  @media only screen and (min-width: 700px) {
+    padding: 20px;
+  }
 }
 
 .wcpt-schedule .registration td,

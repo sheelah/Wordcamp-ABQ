@@ -26,8 +26,6 @@
 1.0 Reset
 --------------------------------------------------------------*/
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -368,6 +366,7 @@ img {
 5.0 Hero Area
 --------------------------------------------------------------*/
 #after-header-widgets {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
   background-repeat: no-repeat;
   height: 400px;
@@ -431,7 +430,7 @@ img {
 @media screen and (min-width: 1000px) {
   #after-header-widgets p {
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 0;
   }
 }
 
@@ -1054,6 +1053,13 @@ input[type="submit"]:hover {
 
 .wcpt-time {
   text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 700px) {
+  .wcpt-time {
+    padding: 20px;
+  }
 }
 
 .wcpt-schedule .registration td,
@@ -1257,5 +1263,4 @@ input[type="submit"]:hover {
     margin-bottom: 0;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
