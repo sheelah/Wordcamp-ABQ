@@ -1069,10 +1069,14 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-span.wcpt-session-speakers:before {
+.wcpt-session-speakers:before {
   color: #464646;
   content: "Speaker: ";
   font-style: italic;
+}
+
+.wcpt-session-speakers {
+  display: block;
 }
 
 .wcb-track-business, .wcpt-schedule .wcb-track-business {
