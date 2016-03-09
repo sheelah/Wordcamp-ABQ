@@ -26,6 +26,8 @@
 1.0 Reset
 --------------------------------------------------------------*/
 * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -366,7 +368,6 @@ img {
 5.0 Hero Area
 --------------------------------------------------------------*/
 #after-header-widgets {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.3)), url("https://albuquerque.wordcamp.org/2016/files/2016/01/abq-wordcamp.jpg");
   background-repeat: no-repeat;
   height: 400px;
@@ -1040,6 +1041,7 @@ input[type="submit"]:hover {
   border-color: #dcdcdc;
   color: #333;
   background-color: white;
+  line-height: 1.6;
 }
 
 .wcpt-schedule .wcpt-col-time {
@@ -1079,6 +1081,7 @@ input[type="submit"]:hover {
 
 .wcpt-session-speakers {
   display: block;
+  margin-top: 8px;
 }
 
 /*--------------------------------------------------------------
@@ -1254,4 +1257,5 @@ input[type="submit"]:hover {
     margin-bottom: 0;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
