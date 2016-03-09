@@ -440,6 +440,11 @@ img {
   padding-top: 5px;
   max-width: 360px;
   text-align: center;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 1.75rem;
+  font-weight: 700;
 }
 
 #after-header-widgets .widget-title {
