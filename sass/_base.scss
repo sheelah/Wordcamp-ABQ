@@ -991,6 +991,69 @@ input[type="submit"]:hover {
 	text-align: left !important;
 }
 
+.tix-column-remaining {
+  text-align: center;
+}
+
+// WCPT Schedule
+.wcpt-schedule {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #dcdcdc;
+  margin: 0 auto;
+}
+
+.wcpt-schedule td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #dcdcdc;
+  color: #333;
+  background-color: white;
+}
+
+.wcpt-schedule .wcpt-col-time {
+  width: 10%;
+}
+
+.wcpt-schedule .wcpt-col-track {
+  width: 45%;
+}
+
+.wcpt-time {
+  text-align: center;
+}
+
+.wcpt-schedule .registration td,.wcpt-schedule .lunch td,.wcpt-schedule .after-party td {
+  background-color: #c5dced;
+  text-align: center;
+}
+
+.wcpt-schedule th {
+  background: #0693d4;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.wcpt-col-track, .wcpt-col-time {
+  text-align: center;
+}
+
+span.wcpt-session-speakers:before {
+  color: #464646;
+  content: "Speaker: ";
+  font-style: italic;
+}
+
+.wcb-track-business, .wcpt-schedule .wcb-track-business {
+  padding: 10px;
+  margin: 10px;
+}
+
 /*--------------------------------------------------------------
 12.0 Responsive Design
 --------------------------------------------------------------*/
