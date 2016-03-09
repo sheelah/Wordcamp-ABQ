@@ -438,7 +438,7 @@ img {
   display: block;
   margin: 0 auto;
   padding-top: 5px;
-  max-width: 360px;
+  max-width: 700px;
   text-align: center;
   color: #fff;
   text-transform: uppercase;
@@ -1057,7 +1057,7 @@ input[type="submit"]:hover {
   }
   #after-header-widgets .textwidget {
     padding: 0;
-    width: 200px;
+    width: auto;
   }
   #before-content-widgets {
     margin: 40px 0 0;
