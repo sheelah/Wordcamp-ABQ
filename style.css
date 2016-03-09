@@ -1026,13 +1026,13 @@ input[type="submit"]:hover {
   border-collapse: collapse;
   border-spacing: 0;
   border-color: #dcdcdc;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .wcpt-schedule td {
   font-family: Arial, sans-serif;
   font-size: 14px;
-  padding: 5px;
+  padding: 20px;
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
@@ -1054,7 +1054,9 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-.wcpt-schedule .registration td, .wcpt-schedule .lunch td, .wcpt-schedule .after-party td {
+.wcpt-schedule .registration td,
+.wcpt-schedule .lunch td,
+.wcpt-schedule .after-party td {
   background-color: #c5dced;
   text-align: center;
 }
@@ -1077,11 +1079,6 @@ input[type="submit"]:hover {
 
 .wcpt-session-speakers {
   display: block;
-}
-
-.wcb-track-business, .wcpt-schedule .wcb-track-business {
-  padding: 10px;
-  margin: 10px;
 }
 
 /*--------------------------------------------------------------
