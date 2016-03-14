@@ -181,6 +181,13 @@ img {
 	width: 100%;
 }
 
+#footer-widgets li > a {
+  color: white;
+  &:visited {
+    color: white;
+  }
+}
+
 /* Column Classes -- 1140px -- 60px gutter
 --------------------------------------------- */
 .five-sixths,
