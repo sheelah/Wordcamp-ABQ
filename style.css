@@ -1090,7 +1090,7 @@ a.wcpt-session-title {
   padding: 10px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 710px) {
   .wcpt-time {
     padding: 20px;
   }
