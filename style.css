@@ -1101,7 +1101,7 @@ input[type="submit"]:hover {
 
 .wcpt-session-speakers:before {
   color: #464646;
-  content: "~";
+  content: "~ ";
   font-style: italic;
 }
 
