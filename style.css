@@ -1052,7 +1052,7 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-.wcpt-session-title {
+a.wcpt-session-title {
   font-weight: bold;
 }
 
