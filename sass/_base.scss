@@ -188,6 +188,18 @@ img {
   }
 }
 
+#menu-footer-menu {
+  max-width: 1100px;
+  table-layout: auto !important;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  li {
+    float: none;
+  }
+}
+
+
 /* Column Classes -- 1140px -- 60px gutter
 --------------------------------------------- */
 .five-sixths,
@@ -1059,7 +1071,7 @@ input[type="submit"]:hover {
 
 .wcpt-session-speakers:before {
   color: #464646;
-  content: "Speaker: ";
+  content: "~";
   font-style: italic;
 }
 
