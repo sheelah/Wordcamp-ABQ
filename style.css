@@ -1052,6 +1052,10 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
+.wcpt-session-title {
+  font-weight: bold;
+}
+
 .wcpt-schedule {
   border-collapse: collapse;
   border-spacing: 0;
