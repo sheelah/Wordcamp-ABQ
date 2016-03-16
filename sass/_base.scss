@@ -189,13 +189,20 @@ img {
 }
 
 #menu-footer-menu {
-  max-width: 1100px;
+  max-width: 100%;
   table-layout: auto !important;
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
   li {
     float: none;
+    display: block;
+  }
+  @media only screen and (min-width: 1000px) {
+    max-width: 1100px;
+    li {
+      display: inline;
+    }
   }
 }
 
