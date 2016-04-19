@@ -1124,6 +1124,14 @@ a.wcpt-session-title {
   margin-top: 8px;
 }
 
+.page-slug-code-of-conduct li {
+  margin-top: 20px;
+}
+
+.page-slug-code-of-conduct li ul > li {
+  margin-top: 5px;
+}
+
 /*--------------------------------------------------------------
 12.0 Responsive Design
 --------------------------------------------------------------*/
