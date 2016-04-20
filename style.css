@@ -514,6 +514,16 @@ img {
   color: #fff;
 }
 
+.front-page aside:nth-of-type(2) a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.front-page aside:nth-of-type(2) a:visited, .front-page aside:nth-of-type(2) a:active, .front-page aside:nth-of-type(2) a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 #before-content-widgets {
   background-color: #fff;
   display: none;
