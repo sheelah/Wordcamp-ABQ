@@ -505,6 +505,15 @@ img {
   margin-top: -25px;
 }
 
+.front-page aside:nth-of-type(2) {
+  background: #355887;
+  color: #fff;
+}
+
+.front-page aside:nth-of-type(2) .widget-title {
+  color: #fff;
+}
+
 #before-content-widgets {
   background-color: #fff;
   display: none;

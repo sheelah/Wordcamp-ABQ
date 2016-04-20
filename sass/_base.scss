@@ -476,6 +476,14 @@ img {
 	margin-top: -25px;
 }
 
+.front-page aside:nth-of-type(2) {
+    background: #355887;
+    color: #fff;
+    .widget-title {
+      color: #fff;
+    }
+}
+
 #before-content-widgets {
 	background-color: #fff;
 	display: none;
