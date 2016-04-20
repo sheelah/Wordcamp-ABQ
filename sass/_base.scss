@@ -494,6 +494,17 @@ img {
     }
 }
 
+.front-page aside:nth-of-type(1) {
+  a {
+    text-decoration: underline;
+    &:visited,
+    &:active,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 #before-content-widgets {
 	background-color: #fff;
 	display: none;
